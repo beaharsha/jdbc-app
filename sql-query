@@ -1,0 +1,13 @@
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+insert into persons values (101, 'Tendulkar', 'sachin' , 'mumbai', 'mumbai');
+insert into persons values (102, 'Dravid', 'Rahul' , 'Mysor', 'Bengulor');
+insert into persons values (103, 'VVS', 'Laxman' , 'Koti', 'Hyderabad');
+
+alter table Persons add primary key (personId);
